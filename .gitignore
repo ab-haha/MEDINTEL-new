@@ -1,0 +1,54 @@
+# ─── Environment Variables ────────────────────────────────────────────────────
+.env.local
+.env.*.local
+
+# ─── Python (Backend) ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.venv/
+venv/
+env/
+
+# ─── Node.js (Frontend) ──────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─── Database / Cache ────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+AGENTS.md
+CLAUDE.md
+
+# ─── Uploaded Files ──────────────────────────────────────────────────────────
+backend/uploads/
+
+# ─── OS Files ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+
+.env

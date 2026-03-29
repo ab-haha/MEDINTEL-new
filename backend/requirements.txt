@@ -1,0 +1,9 @@
+flask==3.1.0
+flask-cors==5.0.1
+PyMuPDF==1.25.3
+pandas==2.2.3
+groq==0.18.0
+requests==2.32.3
+openpyxl==3.1.5
+gunicorn==23.0.0
+python-dotenv==1.0.0
